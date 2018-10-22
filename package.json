@@ -11,11 +11,11 @@
     "prettier": "prettier --write '**/*.js{x,}'"
   },
   "dependencies": {
-    "@zeit/next-sass": "^0.2.0",
+    "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.2",
     "classnames": "^2.2.6",
     "lodash": "^4.17.10",
-    "next": "^6.1.1",
+    "next": "^7.0.2",
     "node-sass": "^4.9.3",
     "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
