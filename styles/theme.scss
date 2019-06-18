@@ -1,9 +1,9 @@
 // 1. Import the initial variables
 
-@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre:800|Poppins:300,400,500,600,700");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css?family=PT+Sans");
-@import "~bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:800|Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import '~bulma/sass/utilities/initial-variables';
 
 // 2. Override styles - https://bulma.io/documentation/customize/variables/
 // $primary: red;
@@ -12,26 +12,27 @@
 // 3. Bulma enable Modularity, which allow you to import what you need
 // https://bulma.io/documentation/overview/modular/
 // @import "~bulma/bulma";
-@import "~bulma/sass/utilities/_all.sass";
-@import "~bulma/sass/base/_all";
+@import '~bulma/sass/utilities/_all.sass';
+@import '~bulma/sass/base/_all';
 // ===== elements
 // @import "~bulma/sass/elements/_all.sass";
-@import "~bulma/sass/elements/button.sass";
-@import "~bulma/sass/elements/container.sass";
-@import "~bulma/sass/elements/form.sass";
-@import "~bulma/sass/elements/icon.sass";
-@import "~bulma/sass/elements/image.sass";
-@import "~bulma/sass/elements/title.sass";
+@import '~bulma/sass/elements/button.sass';
+@import '~bulma/sass/elements/container.sass';
+@import '~bulma/sass/elements/icon.sass';
+@import '~bulma/sass/elements/image.sass';
+@import '~bulma/sass/elements/title.sass';
+// ====== forms
+@import '~bulma/sass/form/_all.sass';
 // ====== components
 // @import "~bulma/sass/components/_all.sass";
-@import "~bulma/sass/components/dropdown.sass";
-@import "~bulma/sass/components/level.sass";
-@import "~bulma/sass/components/menu.sass";
-@import "~bulma/sass/components/navbar.sass";
+@import '~bulma/sass/components/dropdown.sass';
+@import '~bulma/sass/components/level.sass';
+@import '~bulma/sass/components/menu.sass';
+@import '~bulma/sass/components/navbar.sass';
 // ====== grid
 // @import "~bulma/sass/grid/_all.sass";
-@import "~bulma/sass/grid/columns.sass";
+@import '~bulma/sass/grid/columns.sass';
 // ====== layout
 // @import "~bulma/sass/layout/_all.sass";
-@import "~bulma/sass/layout/section.sass";
-@import "~bulma/sass/layout/footer.sass";
+@import '~bulma/sass/layout/section.sass';
+@import '~bulma/sass/layout/footer.sass';
